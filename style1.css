@@ -1,0 +1,57 @@
+
+
+
+body{
+    margin-left: calc((100vw - 100px)/2);
+}
+       
+
+    
+div{
+    height: 100px;
+    width:100px;
+    background-color: green;
+    
+    transition: all 4s;
+    display: inline-block;
+    
+}
+
+
+.one:hover{
+    width: 300px;
+    animation-timing-function: linear;
+    
+
+}
+.two:hover{
+    width:300px;
+    height:300px;
+    animation-timing-function: linear;
+
+}
+.three:hover{
+    animation-timing-function: linear;
+    width:300px;
+
+}
+.four:hover{
+    animation-timing-function: ease;
+    width: 300px;
+}
+.five:hover{
+    animation-timing-function: ease-in;
+    width: 300px;
+}
+.six:hover{
+    animation-timing-function: ease-out;
+    width: 300px;
+}
+.seven:hover{
+    animation-timing-function: ease-in-out;
+    width: 300px;
+}
+
+.text1{
+    color: brown;
+}

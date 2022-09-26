@@ -1,0 +1,129 @@
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 56, 143);
+    animation: myAnimation 4s linear 1s infinite alternate;
+    display: inline-block;
+    margin:40px;
+}
+h1{
+    margin-left: 150px;
+}
+body{
+    background-color: yellow;
+    margin-left: calc((100vw - 600px)/2);
+}
+
+@keyframes myAnimation {
+                           from{
+                            transform: skewX(-20deg);
+                           }
+                           to{
+                            transform: skewX(20deg);
+                           }
+                    
+                        }
+
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(113, 111, 114);
+    animation: myAnimation1 4s linear 1s infinite alternate;
+    display: inline-block;
+    margin:40px;
+}
+
+@keyframes myAnimation1 {
+                           from{
+                            transform: skewY(-20deg);
+                           }
+                           to{
+                            transform: skewY(20deg);
+                           }
+                    
+                        }
+                        
+.three{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(155, 12, 226);
+    animation: myAnimation2 4s ease-in-out 1s infinite ;
+    display: inline-block;
+    margin:40px;
+    }
+                        
+@keyframes myAnimation2
+ {
+     from{
+                 transform: rotate(0deg);
+         }
+         to{
+                transform: rotate(360deg);
+            }
+                                            
+}                                                
+
+.four{
+    width: 80px;
+    height: 50px;
+    background-color: rgb(140, 73, 173);
+    animation: myAnimation3 4s linear 1s infinite alternate;
+    display: inline-block;
+    margin:40px;
+    border:2px solid grey;
+    
+}
+
+@keyframes myAnimation3 {
+                           from{
+                            transform:scaleY(2);
+                           }
+                           to{
+                            
+                           }
+                    
+                        }
+.four1{
+    width: 50px;
+    height: 80px;
+    background-color: brown;
+    animation: myAnimation4 4s linear 1s infinite alternate;
+    display: inline-block;
+    margin:40px;
+    border:2px solid grey;
+    
+}
+
+@keyframes myAnimation4 {
+                           from{
+                            transform:scaleX(2);
+                           }
+                           to{
+                            
+                           }
+                    
+                        }   
+ 
+
+.four2{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    animation: myAnimation5 4s linear 1s infinite alternate;
+    display: inline-block;
+    margin:40px;
+    border:2px solid grey;
+    
+}
+
+@keyframes myAnimation5 {
+                           from{
+                            transform: rotateZ(0deg);
+                           }
+                           to{
+                            transform:rotate(-90deg);
+                           }}
+                    
+.text{
+    color: brown;
+}
